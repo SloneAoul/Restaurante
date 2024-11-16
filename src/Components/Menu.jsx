@@ -18,24 +18,24 @@ const menuItems = [
     return (
 
         <>
-        <div id="menu" className=" menu h-full w-full bg-slate-500 p-32 ">
+        <div id="menu" className=" menu h-full w-full bg-slate-500 p-32 sm:p-0">
         <div className="text-center mb-8">
           <h2 className="text-5xl font-bold">Our Menu</h2>
           <p className=" mt-4">Explore our delicious dishes</p>
         </div>
-      <section id="menu" className=" py-12 border-8 	border-color: rgb(30 41 59); bg-white border-double">
+      <section id="menu" className=" py-12 border-8 	border-color: rgb(30 41 59); bg-white border-double sm:p-0 sm:w-full">
       
   
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 ">
           {menuItems.map((item) => (
             <div key={item.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full h-60 object-cover"
+                className="w-full h-60 object-cover  sm:w-full sm:h-20 "
               />
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2 text-black">{item.name}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-black ">{item.name}</h3>
                 <p className="text-gray-700">{item.price}</p>
               </div>
             </div>
