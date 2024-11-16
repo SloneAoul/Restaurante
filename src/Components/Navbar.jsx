@@ -93,19 +93,29 @@ const Navbar = () => {
         </div>
 
         {/* Links (Visible on larger screens) */}
-        <ul className="hidden md:flex space-x-6 text-white">
+        <ul className="hidden md:flex space-x-14 text-white text-3xl">
           <li>
-            <a href="#home" className="transition">Home</a>
+            <a href="#home" className="transition ">Home</a>
           </li>
           <li>
             <a href="#about-us" className="transition">About Us</a>
-          </li>
+          </li> 
           <li>
             <a href="#menu" className="transition">Menu</a>
           </li>
           <li>
             <a href="#contact" className="transition">Contact</a>
           </li>
+          <li>
+          <a
+              href="#order"
+              className="orderBtn mt-4 px-6 py-3  text-xl font-semibold rounded-lg  transition duration-300"
+              style={{ zIndex: 10 }} // Ensure the button is on top
+            >
+              Order Now
+            </a>
+          </li>
+
         </ul>
       </div>
 
