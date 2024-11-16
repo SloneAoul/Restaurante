@@ -1,0 +1,60 @@
+@font-face {
+    font-family: font;
+    src: url("D:/websites/restaurant/public/fon");
+}
+.Navigation{
+    background-color: #243165;
+    font-family: "main";
+}
+.transition:hover{
+    color: #F1B11B;
+   
+    transition: 0.5s;
+}
+.tray{
+    background-color: #354997;
+}
+.btn{
+    background-color: #F1B11B;
+    color: #243165;
+}
+.btn:hover{
+    color: #F1B11B;
+    background-color:#243165 ;
+    transition: 0.5s;
+}
+
+
+.orderBtn{
+    background-color: #F1B11B;
+    color: #243165;
+
+}
+.orderBtn:hover{
+    color: #F1B11B ;
+    background-color:#243165;
+
+    cursor: pointer;
+   
+}
+#discover-food{
+    background-color: #243165;
+}
+.menu{
+    background-color: #243165;
+    color: #F1B11B;
+}
+.book{
+    background-color: #243165;
+    color: #F1B11B;
+}
+.comment{
+    color: #F1B11B;
+}
+.footer{
+    background-color: black;
+}
+.social{
+    background-color: #F1B11B;
+    color: #243165;
+}

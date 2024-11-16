@@ -1,0 +1,1 @@
+gsap.to(".slide", {x: 100, duration: 1 });
