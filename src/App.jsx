@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import "D:/websites/restaurant/src/Style.css"
