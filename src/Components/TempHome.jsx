@@ -3,7 +3,7 @@ import img1 from "D:/websites/restaurant/src/assets/hall_1.jpg"
 import img2 from "D:/websites/restaurant/src/assets/Carou_1.jpg"
 import img3 from "D:/websites/restaurant/src/assets/Carou_2.jpg"
 import gsap from 'gsap';
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 
 const slides = [
   { id: 1, url: img1, caption: 'RESTAURANT NAME' },

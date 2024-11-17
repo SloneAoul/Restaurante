@@ -62,7 +62,7 @@
 //   export default Navbar;
   
 import  { useState } from 'react';
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 import logo from "D:/websites/restaurant/src/assets/logo.png"
 import ham from "D:/websites/restaurant/src/assets/ham.png"
 

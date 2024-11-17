@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import img from "D:/websites/restaurant/src/assets/left-back.jpg"
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 
 
 const reviews = [

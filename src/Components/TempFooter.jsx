@@ -1,4 +1,4 @@
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 const Footer = () => {
     return (
       <footer className=" p-4 text-white text-center footer">

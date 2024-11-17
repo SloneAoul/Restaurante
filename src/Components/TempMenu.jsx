@@ -73,8 +73,7 @@
 //   };
   
 //   export default Menu;
-  
- import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
  import buffet from 'D:/websites/restaurant/src/assets/buffet.jpg'
 import dal from 'D:/websites/restaurant/src/assets/dal.jpg'
 import snacks from 'D:/websites/restaurant/src/assets/snacks.jpg'

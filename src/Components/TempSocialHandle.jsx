@@ -2,7 +2,7 @@ import insta from 'D:/websites/restaurant/src/assets/insta.png'
 import fb from 'D:/websites/restaurant/src/assets/fb.png'
 import twitter from 'D:/websites/restaurant/src/assets/twitter.png'
 import phone from 'D:/websites/restaurant/src/assets/phone.png'
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 const SocialHandles = () => {
   return (
     <section id="contact" className="py-12 bg-gray-100 social">

@@ -1,4 +1,4 @@
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 
 const BookTable = () => {
   return (
