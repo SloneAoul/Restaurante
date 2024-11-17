@@ -1,7 +1,7 @@
 import Navbar from './Components/TempNavbar';
 import Home from './Components/TempHome';
 import Footer from './Components/TempFooter';
-import "D:/websites/restaurant/src/Style.css"
+import "/src/Style.css"
 import AboutUs from './Components/TempAboutUs'
 import Discover from './Components/TempDiscover'
 import Menu from './Components/TempMenu'
