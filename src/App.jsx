@@ -1,13 +1,13 @@
 import Navbar from './Components/TempNavbar';
-import Home from './components/Home';
-import Footer from './components/Footer';
+import Home from './Components/TempHome';
+import Footer from './Components/TempFooter';
 import "D:/websites/restaurant/src/Style.css"
-import AboutUs from './Components/AboutUs'
-import Discover from './Components/Discover'
-import Menu from './Components/Menu'
-import BookTable from './Components/BookTable'
-import CustomerReview from './Components/CustomerReview'
-import SocialHandle from './Components/SocialHandle';
+import AboutUs from './Components/TempAboutUs'
+import Discover from './Components/TempDiscover'
+import Menu from './Components/TempMenu'
+import BookTable from './Components/TempBookTable'
+import CustomerReview from './Components/TempCustomerReview'
+import SocialHandle from './Components/TempSocialHandle';
 function App() {
   return (
     <div className="App">
