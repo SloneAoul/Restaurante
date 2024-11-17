@@ -5,7 +5,7 @@ import phone from 'D:/websites/restaurant/src/assets/phone.png'
 import "D:/websites/restaurant/src/Style.css"
 const SocialHandles = () => {
   return (
-    <section className="py-12 bg-gray-100 social">
+    <section id="contact" className="py-12 bg-gray-100 social">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Follow Us</h2>
         
