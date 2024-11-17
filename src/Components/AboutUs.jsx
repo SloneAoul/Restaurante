@@ -52,7 +52,7 @@ const AboutUs = () => {
     );
   }, []);
     return (
-      <section id="about-us" ref={sectionRef} className="h-screen flex flex-col md:flex-row">
+      <section id="about-us" ref={sectionRef} className="h-screen flex flex-col md:flex-row mb-20">
         {/* Left side: Image */}
         <div className="md:w-1/3 w-full h-1/2 md:h-full p-16 about-img "ref={imgRef}>
           <img
@@ -63,8 +63,8 @@ const AboutUs = () => {
         </div>
   
         {/* Right side: About Us Section */}
-        <div className="md:w-2/3 w-full h-1/2 md:h-full flex items-center  bg-gray-100  m-0 pl-7 about-text" ref={textRef}>
-          <div className="max-w-lg">
+        <div className="md:w-2/3 w-full h-1/2 md:h-full flex items-center  bg-gray-100  m-0 pl-7 about-text mt-8  " ref={textRef}>
+          <div className="max-w-lg ">
             <h1 className="text-5xl font-bold mb-16 border-b-black ">About Us</h1>
             <h1 className="text-2xl  font-light mb-12 border-b-black  ">Discover Our Food</h1>
             <br/>
