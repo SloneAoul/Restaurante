@@ -4,7 +4,7 @@ import dal from '../assets/dal.jpg'
 import snacks from '../assets/snacks.jpg'
 import SouthIndian from '../assets/South.jpg'
 import thali from '../assets/thali.jpg'
-import chicken from 'D:/websites/restaurant/src/assets/Butterchicken.jpg'
+import chicken from '../assets/Butterchicken.jpg'
 import "/src/Style.css"
 const dishes = [
   { id: 1, name: 'Buffet', image:buffet },
