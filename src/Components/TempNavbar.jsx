@@ -63,8 +63,8 @@
   
 import  { useState } from 'react';
 import "/src/Style.css"
-import logo from "D:/websites/restaurant/src/assets/logo.png"
-import ham from "D:/websites/restaurant/src/assets/ham.png"
+import logo from "../assets/logo.png"
+import ham from "../assets/ham.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,7 +1,7 @@
-import insta from 'D:/websites/restaurant/src/assets/insta.png'
-import fb from 'D:/websites/restaurant/src/assets/fb.png'
-import twitter from 'D:/websites/restaurant/src/assets/twitter.png'
-import phone from 'D:/websites/restaurant/src/assets/phone.png'
+import insta from '../assets/insta.png'
+import fb from '../assets/fb.png'
+import twitter from '../assets/twitter.png'
+import phone from '../assets/phone.png'
 import "/src/Style.css"
 const SocialHandles = () => {
   return (

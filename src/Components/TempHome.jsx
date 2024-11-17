@@ -1,7 +1,7 @@
 import { useState, useEffect,  } from 'react';
-import img1 from "D:/websites/restaurant/src/assets/hall_1.jpg"
-import img2 from "D:/websites/restaurant/src/assets/Carou_1.jpg"
-import img3 from "D:/websites/restaurant/src/assets/Carou_2.jpg"
+import img1 from "../assets/hall_1.jpg"
+import img2 from "../assets/Carou_1.jpg"
+import img3 from "../assets/Carou_2.jpg"
 import gsap from 'gsap';
 import "/src/Style.css"
 

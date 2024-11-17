@@ -74,12 +74,12 @@
   
 //   export default Menu;
 import "/src/Style.css"
- import buffet from 'D:/websites/restaurant/src/assets/buffet.jpg'
-import dal from 'D:/websites/restaurant/src/assets/dal.jpg'
-import snacks from 'D:/websites/restaurant/src/assets/snacks.jpg'
-import SouthIndian from 'D:/websites/restaurant/src/assets/South.jpg'
-import thali from 'D:/websites/restaurant/src/assets/thali.jpg'
-import chicken from 'D:/websites/restaurant/src/assets/Butterchicken.jpg'
+ import buffet from '../assets/buffet.jpg'
+import dal from '../assets/dal.jpg'
+import snacks from '../assets/snacks.jpg'
+import SouthIndian from '../assets/South.jpg'
+import thali from '../assets/thali.jpg'
+import chicken from '../assets/Butterchicken.jpg'
 
 const Menu = () => {
   // Sample data for menu items (you can replace this with actual data)

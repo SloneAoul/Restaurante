@@ -1,9 +1,9 @@
 import { useRef } from 'react';
-import buffet from 'D:/websites/restaurant/src/assets/buffet.jpg'
-import dal from 'D:/websites/restaurant/src/assets/dal.jpg'
-import snacks from 'D:/websites/restaurant/src/assets/snacks.jpg'
-import SouthIndian from 'D:/websites/restaurant/src/assets/South.jpg'
-import thali from 'D:/websites/restaurant/src/assets/thali.jpg'
+import buffet from '../assets/buffet.jpg'
+import dal from '../assets/dal.jpg'
+import snacks from '../assets/snacks.jpg'
+import SouthIndian from '../assets/South.jpg'
+import thali from '../assets/thali.jpg'
 import chicken from 'D:/websites/restaurant/src/assets/Butterchicken.jpg'
 import "/src/Style.css"
 const dishes = [

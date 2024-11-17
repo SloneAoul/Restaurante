@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import img from "D:/websites/restaurant/src/assets/left-back.jpg"
+import img from "../assets/left-back.jpg"
 import "/src/Style.css"
 
 
