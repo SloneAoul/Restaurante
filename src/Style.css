@@ -58,3 +58,49 @@
     background-color: #F1B11B;
     color: #243165;
 }
+/* Loading Screen Styles */
+.loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's on top of everything */
+    animation: slideOutLeft 2s ease-in-out 3s forwards; /* Slide out left after 3s */
+  }
+  
+  .deliciousness-text {
+    opacity: 0;
+    transform: translateX(50px); /* Start position for sliding in from right */
+    animation: slideInLeft 2s ease-in-out 0.5s forwards; /* Slide in after 0.5s */
+  }
+  
+  /* Slide in from the right to the left */
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(50px); /* Start slightly to the right */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* End at normal position */
+    }
+  }
+  
+  /* Slide out the black screen to the left */
+  @keyframes slideOutLeft {
+    from {
+      opacity: 1;
+      transform: translateX(0); /* Start at the normal position */
+      animation-duration: 1s;
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100%); /* Slide out of the viewport to the left */
+      animation-duration: 1s;
+    }
+    
+  }
+  
